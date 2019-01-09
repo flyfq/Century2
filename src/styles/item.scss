@@ -1,0 +1,137 @@
+.aline{text-align: right;width: 60px;display: inline-block;color: #777777;}
+
+div#details{
+	div.margin{
+		div.details-top{
+			font: 12px/48px "Tahoma";padding-left: 20px;padding-top: 15px;background: #f9f9f9;
+			a{padding: 0 5px;}
+		}
+		div.details-middle{
+			
+			padding-left: 20px;
+			min-height: 620px;padding-bottom: 30px;background: #f9f9f9;
+			div.details-images{
+				width: 454px;float: left;
+				dl{
+					dt{
+						width: 454px;height: 454px;cursor: pointer;position: relative;
+						div.smallimg{
+							
+							img{display: none;width:450px;height:446px;}
+							img:nth-child(1){display: block;}
+						}
+						
+						div.movebox{background: rgba(241,212,95,0.3);position: absolute;display: none;top: 0;left: 0;width: 252px;height: 250px;}
+						div.bigimg{
+							width: 452px;height: 452px;position: absolute;top:0px;left: 454px;overflow: hidden;display: none;
+						    img{position: absolute;left: 0;top: 0;}
+							}
+					}
+					
+					dd{
+						height: 90px;margin-top: 60px;position: relative;
+						div{width: 10px;height: 18px;position: absolute;margin-top: 26px;}
+						div:nth-child(1){top: 3px;left: 11px;background:url(../images/btns.png) 0 -108px;}
+						div:nth-child(2){top: 3px;right: 11px;background:url(../images/btns.png) -10px -108px;}
+						ul{
+							width: 400px;height: 90px;margin: 0 auto;
+							li{
+								float: left;width: 78px;border: 1px solid #DDDDDD;height: 78;text-align: center;margin: 0 10px 10px 10px; cursor: pointer;
+								img{width: 74px;display: block;}
+								}
+							li.active{border: 1px solid orangered;}
+						}
+					}
+				}
+			}
+			div.details-infro{
+				margin-left: 50px;width: 668px;
+				float: left;
+				ul{
+					li{padding: 6px 0;font: 12px/1.5 "";}
+					li:nth-child(1){
+						width: 505px;margin-bottom: 5px;border-bottom: 1px solid #dddddd;
+						h1{
+							display: inline-block;color:#777777;font: 16px/22px "";margin-bottom: 10px;
+							span{color: orangered;}
+						}
+						
+					}
+					li:nth-child(2){
+						span{color: #777777;}
+					}
+					li:nth-child(3){
+						span:nth-child(2){
+							font-size: 22px;font-weight: 700;color: orangered;
+							span{color: orangered;font:700 12px/1.5 "";}
+						}
+					}
+					li:nth-child(7){
+						background: #FFFFFF;
+						dl{
+							padding:5px 10px;overflow: hidden;
+							dt{float: left;}
+							dd{
+								float: left;
+								a{display: inline-block;padding: 2px 4px;border: 1px solid #DDDDDD;margin: 0 5px 5px 0;}
+								a.active{border: 2px solid orangered;}
+								}
+						}
+					}
+					li:nth-child(8){
+						border-bottom: 1px solid #efefef;
+						padding-bottom: 10px;
+					}
+					li:nth-child(9){margin: 10px 0;}
+				}
+				div.chooseNum{
+					dl{
+						padding:10px 0;
+						dt{float: left;font: 12px/1.5 "";}
+						dd{
+							float: left;
+							a{background: #FFFFFF; float:left; display:block;width: 20px;height: 20px;line-height: 20px;border: 1px solid #DDDDDD;text-align: center;}
+							input{float:left; width: 30px;height: 20px;text-align: center;border:0;border-top: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;}
+							}
+					}
+				}
+				div.buybtn{
+					a{display: block;width: 133px;height: 36px;background: url(../images/btns.png) no-repeat 0px 0px;margin-top: 70px;}
+				}
+			}
+		}
+		div.details-bottom{
+			margin-top: 30px;
+			div.leftbar{
+				float: left;
+				width: 178px;    border: 1px solid #E0E0E0;padding: 0 15px;
+				dl{
+					margin: 0 auto;margin-top: 20px;font: 14px/22px "";
+					dt{text-align: center;border-top: 1px solid orangered;border-bottom: 1px solid orangered;color:orangered;}
+				}
+				dl:nth-child(1){
+					dd{font: 14px/32px "";}
+				}
+				dl:nth-child(2){	
+					dd{
+						
+						img{width: 80%;display: block;margin: 0 auto;padding:20px 0 15px 0;}
+						a{display: block;white-space: nowrap;overflow: hidden;font: 14px/32px "";}
+						span{font: 700 16px/32px "";color: orangered;}
+					}
+				}
+			}
+			div.rightbar{
+				float: left;width: 975px;margin-left: 15px;
+				div.topline{
+					height: 24px;margin-bottom: 30px;
+					a{text-align: center; width:84px;font: 14px/24px "";border: 1px solid #DDDDDD;padding: 4px 8px;display: block;float: left;margin-right: 15px;}
+					a.active{color: #FFFFFF;background: orangered;font-weight: 700;}
+					}
+				div.contentarea{
+					img{display: block;width:100%;}
+				}
+				}
+		}
+	}
+}

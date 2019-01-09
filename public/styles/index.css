@@ -1,0 +1,160 @@
+html, body {
+  width: 100%; }
+
+li.active {
+  border-bottom: 3px solid #e6423b; }
+
+div#banner {
+  height: 500px; }
+  div#banner div.slider-img a {
+    display: block;
+    height: 500px;
+    overflow: hidden; }
+    div#banner div.slider-img a img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      margin: 0 auto; }
+
+div.swiper-container {
+  height: 500px; }
+  div.swiper-container div.swiper-wrapper div.swiper-slide a {
+    display: block;
+    height: 500px;
+    overflow: hidden; }
+    div.swiper-container div.swiper-wrapper div.swiper-slide a img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      margin: 0 auto; }
+
+div#nav-pagination ul {
+  height: 45px;
+  border: 1px solid #d8d8d8;
+  border-top: 0; }
+  div#nav-pagination ul li {
+    border-left: 1px solid #d8d8d8;
+    float: left;
+    width: 198.83px;
+    text-align: center; }
+    div#nav-pagination ul li a {
+      display: block;
+      height: 100%;
+      font: 12px/45px "";
+      color: #696969; }
+  div#nav-pagination ul li:hover a {
+    background: #e6423b;
+    color: #FFFFFF;
+    transition: .5s linear all; }
+  div#nav-pagination ul li:nth-child(6) {
+    border-left: 0; }
+
+div#main div.main-top {
+  height: 611px;
+  background: url(../images/d12.png) no-repeat center center; }
+  div#main div.main-top ul {
+    position: relative;
+    width: 1000px;
+    margin: 370px 0 0 282px; }
+    div#main div.main-top ul li {
+      width: 200px;
+      height: 150px;
+      margin: 0 18px;
+      float: left; }
+      div#main div.main-top ul li a {
+        display: block;
+        height: 100%; }
+    div#main div.main-top ul li:nth-child(5) {
+      width: 222px;
+      height: 60px;
+      position: absolute;
+      top: -98px;
+      left: 700px; }
+
+div#main div.main-middle div.title {
+  margin-top: 40px;
+  position: relative; }
+  div#main div.main-middle div.title h3 {
+    font: 30px/66px "";
+    width: 300px;
+    position: absolute;
+    top: -35px;
+    left: 500px; }
+  div#main div.main-middle div.title p {
+    border-bottom: #000000 1px solid; }
+
+div#main div.main-middle ul.hotgoodsnav {
+  margin-right: 0;
+  margin: 40px 0 0px 0; }
+  div#main div.main-middle ul.hotgoodsnav li {
+    float: right;
+    border-right: 1px solid #e8e8e8; }
+    div#main div.main-middle ul.hotgoodsnav li a {
+      display: block;
+      font: 16px/28px "";
+      padding: 0 22px; }
+
+div#main div.main-middle div.hotgoodslist ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  transition: 1s linear all; }
+  div#main div.main-middle div.hotgoodslist ul li {
+    width: 230px;
+    height: 330px;
+    border: 1px solid #e8e8e8;
+    margin: 8px 0; }
+    div#main div.main-middle div.hotgoodslist ul li a {
+      width: 100%;
+      height: 100%;
+      display: block; }
+      div#main div.main-middle div.hotgoodslist ul li a img {
+        width: 80%;
+        display: block;
+        margin: 0 auto; }
+      div#main div.main-middle div.hotgoodslist ul li a p.des-item {
+        font: 14px/24px "";
+        width: 90%;
+        margin: 0 auto;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      div#main div.main-middle div.hotgoodslist ul li a p.price-item {
+        font: 700 26px/32px "";
+        color: #e94a3e;
+        text-indent: 10px;
+        margin-bottom: 10px; }
+      div#main div.main-middle div.hotgoodslist ul li a span {
+        padding: 1px 5px;
+        border: 1px solid #eda562;
+        color: #eda562;
+        font: 12px/18px "";
+        border-radius: 3px;
+        margin-left: 10px; }
+  div#main div.main-middle div.hotgoodslist ul li:hover img {
+    transform: scale(1.05, 1.05);
+    transition: 1s linear all; }
+
+div#main div.main-middle div.hotgoodslist ul.lifeshow, div#main div.main-middle div.hotgoodslist ul.beautyshow, div#main div.main-middle div.hotgoodslist ul.milkshow, div#main div.main-middle div.hotgoodslist ul.hotshow, div#main div.main-middle div.hotgoodslist ul.momshow {
+  display: none; }
+
+div#main div.main-bottom {
+  margin: 66px 0 0 0; }
+  div#main div.main-bottom ul.activelist {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    div#main div.main-bottom ul.activelist li {
+      width: 570px;
+      height: 330px;
+      border: 1px solid #e8e8e8;
+      margin-bottom: 30px; }
+      div#main div.main-bottom ul.activelist li img {
+        width: 100%; }
+      div#main div.main-bottom ul.activelist li p {
+        font: 700 16px/48px "";
+        text-align: center; }
+    div#main div.main-bottom ul.activelist li:hover {
+      box-shadow: 1px 2px 2px 1px #d8d8d8;
+      transition: .5s linear all; }

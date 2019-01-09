@@ -1,0 +1,184 @@
+@charset "UTF-8";
+.margin {
+  width: 1200px;
+  margin: 0 auto; }
+
+.icon {
+  background: url(../images/icon.png) no-repeat; }
+
+html body {
+  /*--header部分--*/
+  /*nav导航部分*/ }
+  html body div#top {
+    height: 40px;
+    background: #f7f7f7; }
+    html body div#top div.top-left {
+      float: left; }
+      html body div#top div.top-left span {
+        color: #333333;
+        font: 12px/40px ""; }
+      html body div#top div.top-left a {
+        color: #333333;
+        font: 12px/40px ""; }
+    html body div#top div.top-right {
+      float: right; }
+      html body div#top div.top-right a {
+        color: #666666;
+        font: 12px/40px ""; }
+      html body div#top div.top-right a:nth-child(1) {
+        color: #ff0000; }
+  html body div#header {
+    height: 140px; }
+    html body div#header div.margin div.header-left {
+      float: left;
+      margin: 29px 0 0 0; }
+      html body div#header div.margin div.header-left a {
+        display: block;
+        background: url(../images/logo.png) no-repeat;
+        width: 343px;
+        height: 75px; }
+    html body div#header div.margin div.header-center {
+      float: left; }
+      html body div#header div.margin div.header-center div.searcharea-input {
+        border: 3px solid #e6423b;
+        margin-top: 34px; }
+        html body div#header div.margin div.header-center div.searcharea-input input:nth-child(1) {
+          width: 420px;
+          border: 0;
+          height: 36px;
+          display: block;
+          float: left;
+          padding: 0 4px 0 4px; }
+        html body div#header div.margin div.header-center div.searcharea-input input:nth-child(2) {
+          width: 80px;
+          height: 36px;
+          border: 0;
+          display: block;
+          float: right;
+          background: url(../images/headFoot.png) no-repeat 0 -73px; }
+      html body div#header div.margin div.header-center div.searcharea-keywords {
+        font-size: 12px;
+        margin: 10px 0 0 10px;
+        font-family: 微软雅黑;
+        color: #727171; }
+        html body div#header div.margin div.header-center div.searcharea-keywords a {
+          padding: 4px; }
+    html body div#header div.margin div.header-right {
+      float: right;
+      margin-top: 44px;
+      position: relative;
+      width: 120px;
+      height: 20px; }
+      html body div#header div.margin div.header-right i {
+        display: inline-block;
+        width: 28px;
+        height: 16px;
+        background-position: -18px 0;
+        position: absolute; }
+      html body div#header div.margin div.header-right a {
+        color: #000000;
+        font-family: 微软雅黑;
+        position: absolute; }
+      html body div#header div.margin div.header-right a:nth-child(2) {
+        left: 36px; }
+      html body div#header div.margin div.header-right a:nth-child(3) {
+        left: 68px; }
+      html body div#header div.margin div.header-right em {
+        display: inline-block;
+        width: 8px;
+        height: 6px;
+        background-position: 0 -16px;
+        position: absolute;
+        right: 0;
+        top: 5px; }
+      html body div#header div.margin div.header-right p.productnotice {
+        position: absolute;
+        bottom: -50px;
+        width: 200px;
+        height: 40px;
+        border: 3px solid #e6423b;
+        font: 12px/40px "微软雅黑";
+        text-align: center;
+        display: none; }
+  html body div#nav {
+    height: 40px;
+    background: #353535; }
+    html body div#nav div.margin div.nav-left {
+      position: relative;
+      text-align: center;
+      float: left;
+      width: 190px;
+      background: #232323;
+      background: rgba(23, 23, 23, 0.7); }
+      html body div#nav div.margin div.nav-left span {
+        font: 700 14px/40px "微软雅黑";
+        color: #ffffff; }
+      html body div#nav div.margin div.nav-left ul {
+        z-index: 99;
+        position: absolute;
+        background: rgba(23, 23, 23, 0.7);
+        width: 150px;
+        left: 0px;
+        top: 40px;
+        padding: 0 20px; }
+        html body div#nav div.margin div.nav-left ul li {
+          text-align: left;
+          padding: 13px 0;
+          color: #ffffff;
+          border-bottom: 1px solid #FFFFFF; }
+          html body div#nav div.margin div.nav-left ul li h4 {
+            font: 700 14px/26px "微软雅黑"; }
+          html body div#nav div.margin div.nav-left ul li a {
+            font: 700 12px/22px "微软雅黑";
+            color: #FFFFFF;
+            padding: 0 4px; }
+        html body div#nav div.margin div.nav-left ul li:nth-child(5) {
+          border: 0; }
+    html body div#nav div.margin div.nav-center {
+      float: left; }
+      html body div#nav div.margin div.nav-center ul li {
+        float: left;
+        padding-right: 30px; }
+        html body div#nav div.margin div.nav-center ul li a {
+          display: block;
+          font: 700 14px/40px "微软雅黑";
+          color: #ffffff; }
+        html body div#nav div.margin div.nav-center ul li a:hover {
+          color: #e6423b; }
+      html body div#nav div.margin div.nav-center ul li:nth-child(1) {
+        padding-left: 30px; }
+      html body div#nav div.margin div.nav-center ul li:nth-child(4) {
+        padding-left: 30px; }
+    html body div#nav div.margin div.nav-right {
+      float: right; }
+      html body div#nav div.margin div.nav-right ul li {
+        float: left;
+        a-display: block; }
+  html body p.buy-notice {
+    font-size: 14px;
+    font-family: "微软雅黑";
+    margin: 72px 0 50px 0;
+    text-align: center; }
+  html body div#footer div.margin {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 24px 0 28px 0;
+    color: #333333; }
+    html body div#footer div.margin dl {
+      float: left; }
+      html body div#footer div.margin dl dt {
+        text-align: center;
+        font: 700 12px/40px "微软雅黑"; }
+        html body div#footer div.margin dl dt em {
+          display: block;
+          width: 21px;
+          height: 22px;
+          background-position: 0 -23px;
+          float: left;
+          margin-left: -22px;
+          margin-top: 9px; }
+      html body div#footer div.margin dl dd {
+        font: 12px/20px "微软雅黑"; }

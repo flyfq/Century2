@@ -1,0 +1,220 @@
+.aline {
+  text-align: right;
+  width: 60px;
+  display: inline-block;
+  color: #777777; }
+
+div#details div.margin div.details-top {
+  font: 12px/48px "Tahoma";
+  padding-left: 20px;
+  padding-top: 15px;
+  background: #f9f9f9; }
+  div#details div.margin div.details-top a {
+    padding: 0 5px; }
+
+div#details div.margin div.details-middle {
+  padding-left: 20px;
+  min-height: 620px;
+  padding-bottom: 30px;
+  background: #f9f9f9; }
+  div#details div.margin div.details-middle div.details-images {
+    width: 454px;
+    float: left; }
+    div#details div.margin div.details-middle div.details-images dl dt {
+      width: 454px;
+      height: 454px;
+      cursor: pointer;
+      position: relative; }
+      div#details div.margin div.details-middle div.details-images dl dt div.smallimg img {
+        display: none;
+        width: 450px;
+        height: 446px; }
+      div#details div.margin div.details-middle div.details-images dl dt div.smallimg img:nth-child(1) {
+        display: block; }
+      div#details div.margin div.details-middle div.details-images dl dt div.movebox {
+        background: rgba(241, 212, 95, 0.3);
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 252px;
+        height: 250px; }
+      div#details div.margin div.details-middle div.details-images dl dt div.bigimg {
+        width: 452px;
+        height: 452px;
+        position: absolute;
+        top: 0px;
+        left: 454px;
+        overflow: hidden;
+        display: none; }
+        div#details div.margin div.details-middle div.details-images dl dt div.bigimg img {
+          position: absolute;
+          left: 0;
+          top: 0; }
+    div#details div.margin div.details-middle div.details-images dl dd {
+      height: 90px;
+      margin-top: 60px;
+      position: relative; }
+      div#details div.margin div.details-middle div.details-images dl dd div {
+        width: 10px;
+        height: 18px;
+        position: absolute;
+        margin-top: 26px; }
+      div#details div.margin div.details-middle div.details-images dl dd div:nth-child(1) {
+        top: 3px;
+        left: 11px;
+        background: url(../images/btns.png) 0 -108px; }
+      div#details div.margin div.details-middle div.details-images dl dd div:nth-child(2) {
+        top: 3px;
+        right: 11px;
+        background: url(../images/btns.png) -10px -108px; }
+      div#details div.margin div.details-middle div.details-images dl dd ul {
+        width: 400px;
+        height: 90px;
+        margin: 0 auto; }
+        div#details div.margin div.details-middle div.details-images dl dd ul li {
+          float: left;
+          width: 78px;
+          border: 1px solid #DDDDDD;
+          height: 78;
+          text-align: center;
+          margin: 0 10px 10px 10px;
+          cursor: pointer; }
+          div#details div.margin div.details-middle div.details-images dl dd ul li img {
+            width: 74px;
+            display: block; }
+        div#details div.margin div.details-middle div.details-images dl dd ul li.active {
+          border: 1px solid orangered; }
+  div#details div.margin div.details-middle div.details-infro {
+    margin-left: 50px;
+    width: 668px;
+    float: left; }
+    div#details div.margin div.details-middle div.details-infro ul li {
+      padding: 6px 0;
+      font: 12px/1.5 ""; }
+    div#details div.margin div.details-middle div.details-infro ul li:nth-child(1) {
+      width: 505px;
+      margin-bottom: 5px;
+      border-bottom: 1px solid #dddddd; }
+      div#details div.margin div.details-middle div.details-infro ul li:nth-child(1) h1 {
+        display: inline-block;
+        color: #777777;
+        font: 16px/22px "";
+        margin-bottom: 10px; }
+        div#details div.margin div.details-middle div.details-infro ul li:nth-child(1) h1 span {
+          color: orangered; }
+    div#details div.margin div.details-middle div.details-infro ul li:nth-child(2) span {
+      color: #777777; }
+    div#details div.margin div.details-middle div.details-infro ul li:nth-child(3) span:nth-child(2) {
+      font-size: 22px;
+      font-weight: 700;
+      color: orangered; }
+      div#details div.margin div.details-middle div.details-infro ul li:nth-child(3) span:nth-child(2) span {
+        color: orangered;
+        font: 700 12px/1.5 ""; }
+    div#details div.margin div.details-middle div.details-infro ul li:nth-child(7) {
+      background: #FFFFFF; }
+      div#details div.margin div.details-middle div.details-infro ul li:nth-child(7) dl {
+        padding: 5px 10px;
+        overflow: hidden; }
+        div#details div.margin div.details-middle div.details-infro ul li:nth-child(7) dl dt {
+          float: left; }
+        div#details div.margin div.details-middle div.details-infro ul li:nth-child(7) dl dd {
+          float: left; }
+          div#details div.margin div.details-middle div.details-infro ul li:nth-child(7) dl dd a {
+            display: inline-block;
+            padding: 2px 4px;
+            border: 1px solid #DDDDDD;
+            margin: 0 5px 5px 0; }
+          div#details div.margin div.details-middle div.details-infro ul li:nth-child(7) dl dd a.active {
+            border: 2px solid orangered; }
+    div#details div.margin div.details-middle div.details-infro ul li:nth-child(8) {
+      border-bottom: 1px solid #efefef;
+      padding-bottom: 10px; }
+    div#details div.margin div.details-middle div.details-infro ul li:nth-child(9) {
+      margin: 10px 0; }
+    div#details div.margin div.details-middle div.details-infro div.chooseNum dl {
+      padding: 10px 0; }
+      div#details div.margin div.details-middle div.details-infro div.chooseNum dl dt {
+        float: left;
+        font: 12px/1.5 ""; }
+      div#details div.margin div.details-middle div.details-infro div.chooseNum dl dd {
+        float: left; }
+        div#details div.margin div.details-middle div.details-infro div.chooseNum dl dd a {
+          background: #FFFFFF;
+          float: left;
+          display: block;
+          width: 20px;
+          height: 20px;
+          line-height: 20px;
+          border: 1px solid #DDDDDD;
+          text-align: center; }
+        div#details div.margin div.details-middle div.details-infro div.chooseNum dl dd input {
+          float: left;
+          width: 30px;
+          height: 20px;
+          text-align: center;
+          border: 0;
+          border-top: 1px solid #DDDDDD;
+          border-bottom: 1px solid #DDDDDD; }
+    div#details div.margin div.details-middle div.details-infro div.buybtn a {
+      display: block;
+      width: 133px;
+      height: 36px;
+      background: url(../images/btns.png) no-repeat 0px 0px;
+      margin-top: 70px; }
+
+div#details div.margin div.details-bottom {
+  margin-top: 30px; }
+  div#details div.margin div.details-bottom div.leftbar {
+    float: left;
+    width: 178px;
+    border: 1px solid #E0E0E0;
+    padding: 0 15px; }
+    div#details div.margin div.details-bottom div.leftbar dl {
+      margin: 0 auto;
+      margin-top: 20px;
+      font: 14px/22px ""; }
+      div#details div.margin div.details-bottom div.leftbar dl dt {
+        text-align: center;
+        border-top: 1px solid orangered;
+        border-bottom: 1px solid orangered;
+        color: orangered; }
+    div#details div.margin div.details-bottom div.leftbar dl:nth-child(1) dd {
+      font: 14px/32px ""; }
+    div#details div.margin div.details-bottom div.leftbar dl:nth-child(2) dd img {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      padding: 20px 0 15px 0; }
+    div#details div.margin div.details-bottom div.leftbar dl:nth-child(2) dd a {
+      display: block;
+      white-space: nowrap;
+      overflow: hidden;
+      font: 14px/32px ""; }
+    div#details div.margin div.details-bottom div.leftbar dl:nth-child(2) dd span {
+      font: 700 16px/32px "";
+      color: orangered; }
+  div#details div.margin div.details-bottom div.rightbar {
+    float: left;
+    width: 975px;
+    margin-left: 15px; }
+    div#details div.margin div.details-bottom div.rightbar div.topline {
+      height: 24px;
+      margin-bottom: 30px; }
+      div#details div.margin div.details-bottom div.rightbar div.topline a {
+        text-align: center;
+        width: 84px;
+        font: 14px/24px "";
+        border: 1px solid #DDDDDD;
+        padding: 4px 8px;
+        display: block;
+        float: left;
+        margin-right: 15px; }
+      div#details div.margin div.details-bottom div.rightbar div.topline a.active {
+        color: #FFFFFF;
+        background: orangered;
+        font-weight: 700; }
+    div#details div.margin div.details-bottom div.rightbar div.contentarea img {
+      display: block;
+      width: 100%; }

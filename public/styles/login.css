@@ -1,0 +1,62 @@
+@charset "UTF-8";
+ul.login-nav {
+  display: none; }
+
+.distance {
+  margin-top: 28px; }
+
+.dis {
+  margin-top: 100px; }
+
+div#login div.margin {
+  border: 1px solid #dddddd;
+  border-top: 0;
+  padding-bottom: 60px; }
+  div#login div.margin div.login-left {
+    float: left;
+    margin: 60px 70px 0 80px; }
+  div#login div.margin div.login-right {
+    font: 12px/25px "微软雅黑";
+    float: left; }
+    div#login div.margin div.login-right div.login-title {
+      width: 334px;
+      margin-left: 30px; }
+      div#login div.margin div.login-right div.login-title span:nth-child(1) {
+        float: left;
+        font: 700 14px/18px "微软雅黑"; }
+      div#login div.margin div.login-right div.login-title span:nth-child(2) {
+        float: right;
+        font: 700 12px/18px "微软雅黑"; }
+        div#login div.margin div.login-right div.login-title span:nth-child(2) a {
+          color: orangered; }
+    div#login div.margin div.login-right div.pr {
+      margin-top: 30px; }
+      div#login div.margin div.login-right div.pr span.input-name {
+        width: 80px;
+        display: inline-block;
+        text-align: right; }
+        div#login div.margin div.login-right div.pr span.input-name span {
+          color: orangered; }
+      div#login div.margin div.login-right div.pr input {
+        width: 240px;
+        height: 25px;
+        margin-left: 20px; }
+    div#login div.margin div.login-right div.submit {
+      margin-top: 30px;
+      margin-bottom: 20px; }
+      div#login div.margin div.login-right div.submit input {
+        height: 32px;
+        background: orangered;
+        margin-left: 105px;
+        border: 0;
+        color: #FFFFFF; }
+      div#login div.margin div.login-right div.submit a {
+        color: orangered; }
+    div#login div.margin div.login-right div.special input.te {
+      width: 92px; }
+    div#login div.margin div.login-right div.special img {
+      width: 88px;
+      height: 27px;
+      margin-left: 10px; }
+    div#login div.margin div.login-right div.special a {
+      font: 12px/27px "微软雅黑"; }
